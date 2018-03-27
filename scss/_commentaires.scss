@@ -1,0 +1,14 @@
+.commentaires {
+    background: {
+        image: url('image/commentaires.jpeg');
+        repeat: no-repeat;
+        attachment: fixed;
+        size: cover;
+        position: 50% 50%;
+    }//End background
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    height: 500px;
+    text-align: center;
+}

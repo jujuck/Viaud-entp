@@ -1,12 +1,7 @@
 .solutions {
     background: linear-gradient(to right, $font-button, $font-button-hover);
-    opacity: 0.7;
 }
 
-.solution-presentation {
-    margin-top: 25px;
-    margin-bottom: 45px;
-}
 
 .produit-bloc {
     border: 1px solid $font-color;
@@ -14,7 +9,6 @@
     height: 300px;
     width: 250px;
     text-align: center;
-    opacity: 1;
     margin: 10px;
     border-radius: 6px;
     h3 {
