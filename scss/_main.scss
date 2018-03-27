@@ -4,14 +4,15 @@
 }
 
 body {
-    font-weight: 20px;
     overflow-y: scroll;
     overflow-x: hidden;
-    font-size: 14px;
 }
 
-p {
-    font-size: 16px;
-    line-height: 24px;
-    font-family: "Indie Flower", "cusrive";
-}
+.titre-descr {
+    h2 {
+        @include font-H2();
+    }//end h2
+    p {
+        @include font-paragraphe();
+    }//end p
+}//end phylo

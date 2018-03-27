@@ -1,0 +1,34 @@
+.solutions {
+    background: linear-gradient(to right, $font-button, $font-button-hover);
+    opacity: 0.7;
+}
+
+.solution-presentation {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.produit-bloc {
+    border: 1px solid $font-color;
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    opacity: 1;
+    margin: 10px;
+    border-radius: 6px;
+    h3 {
+        font-family: $font-titre;
+        font-size: 2 * $font-size;
+    }
+    img{
+        width: 200px;
+        margin-left: 8px;
+        border-radius: 6px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .btn {
+        @include button();
+    }
+}

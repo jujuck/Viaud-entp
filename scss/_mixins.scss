@@ -1,0 +1,70 @@
+@mixin font-H1() {
+    font-family: $font-titre;
+    color: $font-color;
+    text-shadow: 3px 3px white;
+    font-size: 6 * $font-size;
+    font-weight: 2 * $font-weight;
+    margin-bottom: 25px;
+}
+
+@mixin font-H2() {
+    position: relative;
+    font-family: $font-titre;
+    color: $font-color;
+    font-size: 3 * $font-size;
+    font-weight: 1.5 * $font-weight;
+    text-align: center;
+    &:after{
+        content:"";
+        width:250px;
+        height: 5px;
+        background-color: $font-button-hover;
+        position: absolute;
+        bottom: -15px;
+        left: 39%; 
+    }//end after;
+}
+
+@mixin font-para-header() {
+    font-family: $font-paragraphe;
+    color: $font-color;
+    text-shadow: 2px 2px white;
+    font-size: 3 * $font-size;
+    font-weight: 1.5 * $font-weight;  
+}
+
+@mixin font-paragraphe() {
+    font-family: $font-paragraphe;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: $font-color;
+    font-size: 1.5 * $font-size;
+    font-weight: 1 * $font-weight;
+    line-height: 20px;
+    margin-top: 45px;
+}
+
+@mixin button() {
+    border: 1px solid $font-button;
+    color: $font-button;
+    background-color: $font-button-hover;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-weight: $font-weight;
+    font-size: 1.2 * $font-size;
+    text-decoration: none;
+    color: $font-button;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    &:hover{
+        color: $font-button-hover;
+        border-color: $font-button-hover;
+        background-color: white;
+        box-shadow: 2px 2px $font-button;
+        text-shadow: 1px 1px $font-color;
+    }
+}

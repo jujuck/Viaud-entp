@@ -19,18 +19,17 @@
 
 .logo {
     width: 150px;
-    border: 2px solid white;
+    border: 2px solid black;
+    box-shadow: 2px 2px white;
     border-radius: 6px;
 }
 
 .titre-entp {
     font-family: "Pt+sans", "arial", "Serif";
-    margin-left: auto;
-    margin-right: auto;
     h1{
-        font-size: 4rem;
+        @include font-H1();
     }//end h1
     p{
-        font-size: 2rem;
+       @include font-para-header();
     }//end p
 }//end titre-entp

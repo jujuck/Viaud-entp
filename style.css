@@ -5,16 +5,38 @@
 
 /* line 6, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
 body {
-  font-weight: 20px;
   overflow-y: scroll;
-  overflow-x: hidden;
-  font-size: 14px; }
+  overflow-x: hidden; }
 
-/* line 13, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
-p {
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Indie Flower", "cusrive"; }
+/* line 12, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
+.titre-descr h2 {
+  position: relative;
+  font-family: Roboto, Arial, serif;
+  color: #1a1919;
+  font-size: 3rem;
+  font-weight: 450;
+  text-align: center; }
+  /* line 17, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_mixins.scss */
+  .titre-descr h2:after {
+    content: "";
+    width: 250px;
+    height: 5px;
+    background-color: #eff80c;
+    position: absolute;
+    bottom: -15px;
+    left: 39%; }
+
+/* line 15, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
+.titre-descr p {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #1a1919;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 20px;
+  margin-top: 45px; }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
 .home {
@@ -36,19 +58,87 @@ p {
 /* line 20, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
 .logo {
   width: 150px;
-  border: 2px solid white;
+  border: 2px solid black;
+  box-shadow: 2px 2px white;
   border-radius: 6px; }
 
-/* line 26, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
+/* line 27, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
 .titre-entp {
-  font-family: "Pt+sans", "arial", "Serif";
-  margin-left: auto;
-  margin-right: auto; }
-  /* line 30, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
+  font-family: "Pt+sans", "arial", "Serif"; }
+  /* line 29, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
   .titre-entp h1 {
-    font-size: 4rem; }
-  /* line 33, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
+    font-family: Roboto, Arial, serif;
+    color: #1a1919;
+    text-shadow: 3px 3px white;
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 25px; }
+  /* line 32, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
   .titre-entp p {
+    font-family: Raleway, Helvetica, sans-serif;
+    color: #1a1919;
+    text-shadow: 2px 2px white;
+    font-size: 3rem;
+    font-weight: 450; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_philosophie.scss */
+.philosophie {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+.solutions {
+  background: linear-gradient(to right, #fd081b, #eff80c);
+  opacity: 0.7; }
+
+/* line 6, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+.solution-presentation {
+  margin-top: 25px;
+  margin-bottom: 45px; }
+
+/* line 11, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+.produit-bloc {
+  border: 1px solid #1a1919;
+  background-color: white;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+  opacity: 1;
+  margin: 10px;
+  border-radius: 6px; }
+  /* line 20, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  .produit-bloc h3 {
+    font-family: Roboto, Arial, serif;
     font-size: 2rem; }
+  /* line 24, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  .produit-bloc img {
+    width: 200px;
+    margin-left: 8px;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  /* line 31, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  .produit-bloc .btn {
+    border: 1px solid #fd081b;
+    color: #fd081b;
+    background-color: #eff80c;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fd081b;
+    transition: 1s;
+    -moz-transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s; }
+    /* line 63, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_mixins.scss */
+    .produit-bloc .btn:hover {
+      color: #eff80c;
+      border-color: #eff80c;
+      background-color: white;
+      box-shadow: 2px 2px #fd081b;
+      text-shadow: 1px 1px #1a1919; }
 
 /*# sourceMappingURL=style.css.map */
