@@ -1,0 +1,15 @@
+/* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
+header {
+  background-image: url("image/bandeau.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px; }
+
+/*# sourceMappingURL=style.css.map */

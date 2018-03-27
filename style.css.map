@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "file": "style.css",
+  "sources": [
+    "style.scss",
+    "scss/_main.scss",
+    "scss/_nav.scss",
+    "scss/_header.scss",
+    "scss/_philosophie.scss",
+    "scss/_solutions.scss",
+    "scss/_commentaires.scss",
+    "scss/_contact.scss",
+    "scss/_footer.scss",
+    "scss/_variables.scss",
+    "scss/_mixins.scss",
+    "scss/_function.scss"
+  ],
+  "mappings": ";ACAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE,GACd;;;AEHD,AAAA,MAAM,CAAC;EACH,UAAU,AAAC,CAAC,AACR,KAAK,EAAE,yBAAG;EADd,UAAU,AAAC,CAAC,AAER,MAAM,EAAE,SAAU;EAFtB,UAAU,AAAC,CAAC,AAGR,UAAU,EAAE,KAAM;EAHtB,UAAU,AAAC,CAAC,AAIR,IAAI,EAAE,KAAM;EAJhB,UAAU,AAAC,CAAC,AAKR,QAAQ,EAAE,OAAQ;EAEtB,MAAM,EAAE,KAAM,GACjB",
+  "names": []
+}

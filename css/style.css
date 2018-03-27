@@ -1,0 +1,53 @@
+/*
+Error: File to import not found or unreadable: scss/nav.
+        on line 3 of scss/style.scss
+
+1: //Importation des fichiers structuraux
+2: 
+3: @import "scss/nav";
+4: @import "scss/header";
+5: @import "scss/philosophie";
+6: @import "scss/solutions";
+7: @import "scss/commentaires";
+8: @import "scss/contact";
+
+Backtrace:
+scss/style.scss:3
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/import_node.rb:45:in `import'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:391:in `run'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+/home/julien/gems/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+/home/julien/gems/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
+/home/julien/gems/bin/sass:23:in `load'
+/home/julien/gems/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: scss/nav.\A         on line 3 of scss/style.scss\A \A 1: //Importation des fichiers structuraux\A 2: \A 3: @import \"scss/nav\";\A 4: @import \"scss/header\";\A 5: @import \"scss/philosophie\";\A 6: @import \"scss/solutions\";\A 7: @import \"scss/commentaires\";\A 8: @import \"scss/contact\";"; }
