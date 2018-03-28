@@ -13,6 +13,24 @@
     text-align: center;
 }
 
+//========Barre de navigation==========
+nav {
+    background-color: r$font-color;
+    opacity: 0.2;
+}
+
+ul {
+    display: table;
+    width: 500px;
+    margin: 100px auto;
+    padding: 0;
+    border-raduis: 3px;
+    li {
+        display: table-cell;
+    }//end li
+}//end ul
+
+//========Description Header============
 .header-presentation {
     padding-top: 100px;
 }
