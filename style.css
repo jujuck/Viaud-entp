@@ -1,3 +1,40 @@
+/* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 35px;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 40px; }
+
+/* line 10, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-1 {
+  grid-column-end: span 1; }
+
+/* line 14, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-2 {
+  grid-column-end: span 2; }
+
+/* line 18, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-3 {
+  grid-column-end: span 3; }
+
+/* line 22, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-4 {
+  grid-column-end: span 4; }
+
+/* line 26, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-5 {
+  grid-column-end: span 6; }
+
+/* line 30, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-7 {
+  grid-column-end: span 7; }
+
+/* line 34, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_grid.scss */
+.col-8 {
+  grid-column-end: span 8; }
+
 /* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
 * {
   margin: 0;
@@ -41,15 +78,8 @@ body {
 /* line 20, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
 .overlay {
   background-color: rgba(139, 139, 139, 0.3);
-  margin-top: -25px;
-  margin-bottom: -40px; }
-
-/* line 26, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_main.scss */
-.section {
-  margin-top: 35px;
-  margin-bottom: 50px;
-  padding-top: 25px;
-  padding-bottom: 40px; }
+  /*argin-top: -50px;
+    margin-bottom: -120px;*/ }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_header.scss */
 .home {
@@ -98,27 +128,31 @@ body {
 .solutions {
   background: linear-gradient(to right, #fd081b, #eff80c); }
 
-/* line 6, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+/* line 9, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+.expo {
+  justify-items: center; }
+
+/* line 13, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
 .produit-bloc {
   border: 1px solid #1a1919;
   background-color: white;
   height: 300px;
   width: 250px;
   text-align: center;
-  margin: 10px;
+  margin: 2px;
   border-radius: 6px; }
-  /* line 14, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  /* line 21, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
   .produit-bloc h3 {
     font-family: Roboto, Arial, serif;
     font-size: 2rem; }
-  /* line 18, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  /* line 25, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
   .produit-bloc img {
     width: 200px;
     margin-left: 8px;
     border-radius: 6px;
     margin-top: 15px;
     margin-bottom: 15px; }
-  /* line 25, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
+  /* line 32, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_solutions.scss */
   .produit-bloc .btn {
     border: 1px solid #fd081b;
     color: #fd081b;
@@ -152,7 +186,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
-  height: 500px;
+  height: 650px;
   text-align: center; }
 
 /* line 1, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_contact.scss */
@@ -167,5 +201,13 @@ body {
   line-height: 20px;
   margin-top: 45px;
   margin-top: 150px; }
+
+/* line 6, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_contact.scss */
+.contact {
+  text-align: center; }
+
+/* line 10, /home/julien/Documents/Webdev-exo/Viaud-entp/scss/_contact.scss */
+.horaire {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
