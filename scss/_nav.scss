@@ -1,0 +1,41 @@
+//========Barre de navigation==========
+/*============== Nav Bar header ===========*/
+.navigation {
+    background-color: $font-color;
+}
+
+.espace-navigation {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+    li {
+        display: inline; 
+    }
+}
+
+.navigation-item ,
+.navigation-item :focus,
+.navigation-item :active,
+.navigation-item :visited
+{
+    text-align: center;
+    color: $font-color;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid $font-color;
+    padding: 5px 20px;
+    font-family: $font-autres;
+    font-size: 14px;
+    font-weight: 150;
+    border-radius: 6px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+
